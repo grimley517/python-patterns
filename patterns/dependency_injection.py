@@ -54,7 +54,7 @@ class ParameterInjection:
 class SetterInjection:
     """Setter Injection"""
 
-    def __init__(self):
+    def __init__(self) -> None:
         pass
 
     def set_time_provider(self, time_provider: Callable):
